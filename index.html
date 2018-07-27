@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+	<body id="main">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">What operating system do you use and why?</p>
+    <form id="survey-form">
+      <label id="name-label" for="name"> Who is your name?</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required></br>
+      <label id="email-label" for="email">Your email to receive newsletters about free software</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required></br>
+      <label id="number-label" for="number">How long do you use the latest install operating system?</label>
+      <input type="number" id="number" name="number" min="0" max="50" placeholder="years" required></br>
+      <label id="recommend" for="recommend">Do you recommend your operating system to your friends?</label>
+      <input type="radio" id="radio" name="recommend">Yes
+      <input type="radio" id="radio" name="recommend">No</br>
+      <select id="dropdown">
+        <option value=""></option>
+        <option value=""></option>
+      </select>
+      <input type="checkbox" id="checkbox" name="software">
+      <textarea id="comments"></textarea>
+      <input type="submit" id="submit" name="submit"</br>
+    </form>
+  </body>
+</html>
