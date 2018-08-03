@@ -1,1 +1,30 @@
+body {
+  background-color: #5E77FF;
+}
 
+
+.header {
+  color: #fff;
+  text-align: center;
+}
+
+#description {
+  font-size: 2em;
+  background: linear-gradient(180deg, #E6E5EB 0%, #D7D6E3 99.1%);
+  border-radius: 8px;
+  color: #000;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+}
+
+#survey-form {
+  background: linear-gradient(180deg, #E6E5EB 0%, #D7D6E3 99.1%);
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
